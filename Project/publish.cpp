@@ -12,7 +12,7 @@ using namespace std;
 #define CLIENTID   "Beagle1"
 #define TOPIC      "TFortune/feeds/weather.temperature"
 #define AUTHMETHOD "TFortune"
-#define AUTHTOKEN  "aio_zGNc943dtLcpW9cXfCKmhcXQVpyJ"
+#define AUTHTOKEN  ""
 #define QOS        1
 #define TIMEOUT    10000L
 //#define ADC_PATH   "/sys/bus/iio/devices/iio:device0/in_voltage"
