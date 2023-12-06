@@ -1,0 +1,5 @@
+#!/bin/bash
+g++ GPIO.h Part2Transmit.cpp -o transmit -pthread -lpaho-mqtt3c
+g++ GPIO.h Part2Recieve.cpp -o recieve -pthread -lpaho-mqtt3c
+g++ AnalogIn.h publish.cpp -o publish -pthread -lpaho-mqtt3c
+g++ AnalogIn.h subscribe.cpp -o subscribe -pthread -lpaho-mqtt3c
