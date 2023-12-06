@@ -12,7 +12,7 @@ using namespace std;
 #define CLIENTID   "Beagle1"
 #define TOPIC      "cv1123/feeds/projtemp.temperature"
 #define AUTHMETHOD "cv1123"
-#define AUTHTOKEN  "aio_gOGH08LI7Bd1Jqg3xHGcvxqgOaHi"
+#define AUTHTOKEN  ""
 #define QOS        1
 #define TIMEOUT    10000L
 //#define ADC_PATH   "/sys/bus/iio/devices/iio:device0/in_voltage"
